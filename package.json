@@ -1,0 +1,15 @@
+{
+  "name": "analyticscsv",
+  "version": "1.0.0",
+  "description": "To pull analytic records into a excel sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "sunil",
+  "license": "ISC",
+  "devDependencies": {
+    "csv-write-stream": "^2.0.0"
+  }
+}

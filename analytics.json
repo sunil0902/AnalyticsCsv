@@ -1,0 +1,41 @@
+{
+    "environments":[
+        {
+            "dimensions":[
+                {
+                    "metrics" : [
+                        {
+                            "name": "sun(message_count)",
+                            "values": [
+                                "15.0"
+                            ]
+                        }
+                    ],
+                    "name": "SSFGTR"
+                },
+                {
+                    "metrics" : [
+                        {
+                            "name": "sun(message_count)",
+                            "values": [
+                                "2.0"
+                            ]
+                        }
+                    ],
+                    "name": "NC4GTR"
+                },
+                {
+                    "metrics" : [
+                        {
+                            "name": "sun(message_count)",
+                            "values": [
+                                "2.0"
+                            ]
+                        }
+                    ],
+                    "name": "NUTRAVELGTR"
+                }
+            ]
+        }
+    ]
+}

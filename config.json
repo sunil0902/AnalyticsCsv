@@ -1,0 +1,20 @@
+{
+    "input":
+    {
+        "APIName":"TestAPI",
+        "dimensionName": "TargetSystem",
+        "metric": "Traffic",
+        "timeRange": "",
+        "host": "",
+        "port": "",
+        "scheme": "",
+        "adminUsername": "",
+        "adminPwd": "",
+        "josnFileLocation":"/analytics.json"
+    },
+    "output":
+    {
+        "outputFileLocation":"",
+        "outputFileName": "TestAPIReport.csv"
+    }
+}
