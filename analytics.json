@@ -1,41 +1,225 @@
 {
-    "environments":[
-        {
-            "dimensions":[
-                {
-                    "metrics" : [
-                        {
-                            "name": "sun(message_count)",
-                            "values": [
-                                "15.0"
-                            ]
-                        }
-                    ],
-                    "name": "SSFGTR"
-                },
-                {
-                    "metrics" : [
-                        {
-                            "name": "sun(message_count)",
-                            "values": [
-                                "2.0"
-                            ]
-                        }
-                    ],
-                    "name": "NC4GTR"
-                },
-                {
-                    "metrics" : [
-                        {
-                            "name": "sun(message_count)",
-                            "values": [
-                                "2.0"
-                            ]
-                        }
-                    ],
-                    "name": "NUTRAVELGTR"
-                }
-            ]
-        }
-    ]
+   "environments": [   {
+      "dimensions":       [
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["112028.0"]
+            }],
+            "name": "NUTRAVELGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["41013.0"]
+            }],
+            "name": "SSFGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["1757.0"]
+            }],
+            "name": "NC4GTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["1147473.0"]
+            }],
+            "name": "MTTGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["24037.0"]
+            }],
+            "name": "TRIPBAMGBTGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["83819.0"]
+            }],
+            "name": "ROADMAP"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["3806.0"]
+            }],
+            "name": "LANYONGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["5811.0"]
+            }],
+            "name": "CRISIS24GTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["953.0"]
+            }],
+            "name": "VOYAGEMANAGER"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["585.0"]
+            }],
+            "name": "GEMSTONEGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["86196.0"]
+            }],
+            "name": "ANVILGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["59261.0"]
+            }],
+            "name": "MICROSOFT"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["49.0"]
+            }],
+            "name": "APMM"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["724.0"]
+            }],
+            "name": "MERMAIDGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["17435.0"]
+            }],
+            "name": "CONFERMAGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["3.0"]
+            }],
+            "name": "LIDO11"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["1598.0"]
+            }],
+            "name": "LIDOGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["88286.0"]
+            }],
+            "name": "IBM"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["38881.0"]
+            }],
+            "name": "CONTGOGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["14601.0"]
+            }],
+            "name": "AUDITOR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["4221.0"]
+            }],
+            "name": "EXPERTAPPROVALGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["31.0"]
+            }],
+            "name": "(not set)"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["272.0"]
+            }],
+            "name": "DOME"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["191769.0"]
+            }],
+            "name": "YAPTAGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["279.0"]
+            }],
+            "name": "CONCURTRXGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["219490.0"]
+            }],
+            "name": "NETTRANSGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["1113852.0"]
+            }],
+            "name": "ISOSGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["108521.0"]
+            }],
+            "name": "TPIIWEBGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["202804.0"]
+            }],
+            "name": "IJETGTR"
+         },
+                  {
+            "metrics": [            {
+               "name": "sum(message_count)",
+               "values": ["66499.0"]
+            }],
+            "name": "TRIPBAMGTR"
+         }
+      ],
+      "name": "prod"
+   }],
+   "metaData":    {
+      "errors": [],
+      "notices":       [
+         "source pg:4ffa108b-3e32-48db-94ac-526805fc75ab",
+         "Table used: gtr.prod.fact",
+         "query served by:4aeb1409-28a5-4f5c-85b9-13178008a14d"
+      ]
+   }
 }
