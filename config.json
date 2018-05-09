@@ -16,5 +16,6 @@
     {
         "outputFileLocation":"",
         "outputFileName": "TestAPIReport.csv"
-    }
+    },
+    "offline" : false
 }

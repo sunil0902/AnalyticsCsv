@@ -3,7 +3,7 @@ var analyticsJson = require('..'+config.input.josnFileLocation);
 var writeToCsv = require('./writeToCsv');
 var util = require('util');
 
-var readJsonFile = function(){
+module.exports = function(){
 
     const default_index =0;
     var dimensions = analyticsJson.environments[default_index].dimensions;
@@ -19,6 +19,5 @@ var readJsonFile = function(){
     });
     writeToCsv.writer.end();
     // console.log(util.inspect(analyticsJson,false,null));
-}
+};
 
-module.exports.readJsonFile = readJsonFile;
